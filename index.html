@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Berke Simsekler - Kişisel Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mustafa Berke Simsekler</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#projects">Projelerim/Tecrübelerim</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="CV_MustafaBerkeSimsekler.pdf" target="_blank">CV</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+                
+            </nav>
+            <button id="theme-toggle">🌓</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 style="color: antiquewhite;">Sayfama Hoşgeldin</h2>
+                    <p>Ben Berke, 3D Tasarım ile uğraşıyorum, ODTÜ Bilgisayar Ve Öğretim Teknolojileri Bölümünde 2. Sınıfım. ODTÜ Bilgisayar Topluluğu'nda Yönetim Kurulundayım.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="photosrc/dasm.png" alt="Mustafa Berke Simsekler" id="profile-photo">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Hakkımda</h2>
+                <p> 2005 Yılında Doğdum. Ağırlıklı olarak 3D tasarımcısıyım, aynı zamanda Full-Stack geliştirici, 3D animatör ve kullanıcı arayüzü tasarımcısıyım.
+                    
+                    2018 yılında ROBLOX adlı bir platformda oyun geliştirmeye başladım ve oyunlar için binalar ve haritalar tasarlamaya yöneldim. 2019 yılının sonlarına doğru, bir ürün geliştirirken kendi ihtiyaçlarımı karşılayabilmek için kullanıcı arayüzü tasarımı ve Luau dilinde kodlama öğrendim.
+                    
+                    Çoğu popüler olamasa da birçok projede çalıştım. Bununla birlikte, Türk solo geliştiriciler arasında işimi ciddiye almam sayesinde çalışma disiplini açısından bir fark yarattım. Orta Doğu Teknik Üniversitesi'nde Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü'nde okuyorum. Şu an ikinci sınıftayım, lisans eğitimimin üçüncü yılındayım. ODTÜ Bilgisayar Topluluğu'na katıldım ve şu anda topluluğun oyun geliştirme çalışma grubunun oyun sanatı alanını yönetiyorum. Ayrıca yakın zamanda yönetim kurulu başkan yardımcısı oldum.
+                    
+                    Yurtdışında Rusça ve Kırgızca öğrendim, en az B2 seviyesinde bir yetkinliğe ulaştım. İngilizcemi C1 seviyesine kadar getirdim.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Tecrübe ve Projelerim</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="photosrc/rb1.png" style="width:100%">
+                        <div class="text">Street Design</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="photosrc/rb2.png" style="width:100%">
+                        <div class="text">Winter Ambience</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="photosrc/rvngrs1.png" style="width:100%">
+                        <div class="text">Street Revengers</div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div class="project-grid">
+                    <img src="photosrc/hosptl1.jpg" alt="Hospital Corridor">
+                    <img src="photosrc/rb3.png" alt="Road Design">
+                    <img src="photosrc/rb4.png" alt="Japanese Design">
+                    <img src="photosrc/rb5.png" alt="Hospital Building">
+                    <img src="photosrc/sln1.png" alt="Cafe">
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- The Modal -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div id="caption"></div>
+</div>
+
+        
+        <section id="blog">
+            <div class="container">
+                <h2>Blog</h2>
+                <div id="blog-posts" class="blog-grid">
+                    <!-- Blog posts will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>İletişim</h2>
+                <div class="contact-info">
+                    <p><strong>LinkedIN:</strong> <a href="https://www.linkedin.com/in/mustafa-berke-simsekler" target="_blank">LinkedIN Hesabım</a>
+                    <p><strong> Mail:</strong> <a href="mailto:simseklermustafaberke@gmail.com" target="_blank">simseklermustafaberke@gmail.com</a></p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mustafa Berke Simsekler. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
