@@ -1,2 +1,1 @@
-# berke-personalpage
-Kişisel Sayfam
+# Kişisel Sayfam işte
