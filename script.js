@@ -1,7 +1,6 @@
 // Sample blog posts
 const blogPosts = [
     { title: "Bloglara Hoşgeldin", content: "Buraya şu anlık bir şeyler yazmadım :).." }
-
 ];
 
 // Function to display blog posts
@@ -18,20 +17,25 @@ function displayBlogPosts() {
     });
 }
 
-// Function to handle form submission
-
-
 // Function to toggle dark mode
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 }
 
-// Event listeners
-document.addEventListener("DOMContentLoaded", () => {
-    displayBlogPosts();
+// Throttle function
+function throttle(func, limit) {
+    let inThrottle;
+    return function() {
+        const args = arguments;
+        const context = this;
+        if (!inThrottle) {
+            func.apply(context, args);
+            inThrottle = true;
+            setTimeout(() => inThrottle = false, limit);
+        }
+    }
+}
 
-    document.getElementById("theme-toggle").addEventListener("click", toggleDarkMode);
-});
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -76,17 +80,6 @@ window.onclick = function(event) {
     }
 }
 
-// Add click event listeners to all project images
-document.addEventListener("DOMContentLoaded", function() {
-    let projectImages = document.querySelectorAll('.project-grid img');
-    projectImages.forEach(function(img) {
-        img.addEventListener('click', function() {
-            openModal(this.src, this.alt);
-        });
-    });
-});
-
-
 function checkVisibility() {
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
@@ -97,16 +90,34 @@ function checkVisibility() {
         }
     });
 }
+
+// Touch variables for swipe functionality
+let touchStartX = 0;
+let touchEndX = 0;
+
+function checkSwipe() {
+    if (touchStartX - touchEndX > 50) {
+        plusSlides(1);
+    }
+    if (touchEndX - touchStartX > 50) {
+        plusSlides(-1);
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+    displayBlogPosts();
+    document.getElementById("theme-toggle").addEventListener("click", toggleDarkMode);
+
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mainNav = document.getElementById('main-nav');
+    const slideshow = document.querySelector('.slideshow-container');
 
     mobileMenuBtn.addEventListener('click', function() {
         mainNav.classList.toggle('active');
         this.classList.toggle('active');
     });
 
-    // Menü öğelerine tıklandığında menüyü kapat
+    // Close menu when menu items are clicked
     const menuItems = mainNav.querySelectorAll('a');
     menuItems.forEach(item => {
         item.addEventListener('click', () => {
@@ -117,15 +128,44 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Pencere boyutu değiştiğinde kontrol et
-    window.addEventListener('resize', function() {
-        if (window.innerWidth > 768) {
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        const isClickInsideMenu = mainNav.contains(event.target);
+        const isClickOnMenuButton = mobileMenuBtn.contains(event.target);
+        if (!isClickInsideMenu && !isClickOnMenuButton && mainNav.classList.contains('active')) {
             mainNav.classList.remove('active');
             mobileMenuBtn.classList.remove('active');
         }
     });
+
+    // Touch event listeners for swipe functionality
+    slideshow.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+
+    slideshow.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        checkSwipe();
+    });
+
+    // Add click event listeners to all project images
+    let projectImages = document.querySelectorAll('.project-grid img');
+    projectImages.forEach(function(img) {
+        img.addEventListener('click', function() {
+            openModal(this.src, this.alt);
+        });
+    });
+
+    // Check visibility on load
+    checkVisibility();
 });
 
-window.addEventListener('scroll', checkVisibility);
-window.addEventListener('resize', checkVisibility);
-checkVisibility(); // Initial check
+// Throttled scroll and resize event listeners
+window.addEventListener('scroll', throttle(checkVisibility, 200));
+window.addEventListener('resize', throttle(() => {
+    checkVisibility();
+    if (window.innerWidth > 768) {
+        document.getElementById('main-nav').classList.remove('active');
+        document.getElementById('mobile-menu-btn').classList.remove('active');
+    }
+}, 200));
