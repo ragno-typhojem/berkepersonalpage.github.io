@@ -97,6 +97,34 @@ function checkVisibility() {
         }
     });
 }
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mainNav = document.getElementById('main-nav');
+
+    mobileMenuBtn.addEventListener('click', function() {
+        mainNav.classList.toggle('active');
+        this.classList.toggle('active');
+    });
+
+    // Menü öğelerine tıklandığında menüyü kapat
+    const menuItems = mainNav.querySelectorAll('a');
+    menuItems.forEach(item => {
+        item.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                mainNav.classList.remove('active');
+                mobileMenuBtn.classList.remove('active');
+            }
+        });
+    });
+
+    // Pencere boyutu değiştiğinde kontrol et
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            mainNav.classList.remove('active');
+            mobileMenuBtn.classList.remove('active');
+        }
+    });
+});
 
 window.addEventListener('scroll', checkVisibility);
 window.addEventListener('resize', checkVisibility);
