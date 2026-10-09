@@ -16,3 +16,18 @@ Content reviewed on 9 October 2026. Descriptions intentionally omit unverified a
 | Contact email, LinkedIn and existing CV PDF | Retained from the original portfolio. The CV document itself was not updated. |
 
 The root site URL, repository and GitHub Pages configuration remain the same. No separate hosting service or new deployment has been introduced.
+
+## October 2026 follow-up
+
+The user confirmed that the METU Computer Club board/chairmanship term has ended, that İLKYAR Full Stack Developer work is ongoing, and that the MagicLab Game Artist internship must remain. Those confirmations override stale role wording on public profiles. LinkedIn lists İLKYAR volunteering from November 2024; the internship completion post describes two months and a three-person team. Exact internship and club term dates are not inferred.
+
+Additional public repositories inspected (source, not runtime validation):
+
+- [İskelet Fehmi](https://github.com/ragno-typhojem/iskeletfahmi-ai): camera tracking and canvas character rendering. Current source uses MediaPipe Tasks; the earlier LinkedIn post mentions Holistic. Portfolio tags use MediaPipe without claiming the older implementation is current.
+- [Minik AI Laboratuvarı](https://github.com/ragno-typhojem/balkizCreative): README and package manifest describe browser-based camera/audio classifier workshops using TensorFlow.js.
+- [Emotion Detector](https://github.com/ragno-typhojem/emotion-detector): React source uses face-api.js expression estimates. No claim of knowing a person's actual emotions or diagnostic accuracy.
+- [Libocculus](https://github.com/ragno-typhojem/libocculus): React/Firebase campus prototype, crowd reports for libraries/cafeterias and QR rewards. No university deployment claim.
+- [Uzun Browser](https://github.com/ragno-typhojem/uzun-browser): Electron package and tabs/bookmarks/history interface. Described as an experiment, with no speed claims.
+- [KODKIT Application](https://github.com/ragno-typhojem/KODKIT-Application): C#/XAML block execution and sprite movement prototype. README explicitly says discontinued. Related Scratch/TurboWarp/Blockly forks are credited as upstream-based experiments, not independent engines.
+
+Street Revengers, Skyline Cafe, Turk-Med and Erciyan archive summaries come from the user's public LinkedIn project entries. Street Revengers and Erciyan are marked unreleased. Existing photos are not newly attributed to Turk-Med or Erciyan without evidence. BALKIZ variants are not counted as separate products.

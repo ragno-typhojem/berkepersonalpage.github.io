@@ -2,7 +2,7 @@
 
 The existing personal site at [ragno-typhojem.github.io/berkepersonalpage.github.io](https://ragno-typhojem.github.io/berkepersonalpage.github.io/).
 
-A responsive, bilingual English/Turkish portfolio covering gameplay systems, 3D environments, education and community leadership. Production uses plain HTML, CSS and JavaScript, with no framework, runtime dependencies, remote fonts or analytics.
+A responsive, bilingual English/Turkish portfolio covering gameplay systems, 3D environments, web and desktop tools, education, and current/past experience. The portfolio includes 15 project entries, with source links for seven projects. İLKYAR volunteering is current; METU Computer Club chairmanship and the MagicLab Game Artist internship are completed roles. Production uses plain HTML, CSS and JavaScript, with no framework, runtime dependencies, remote fonts or analytics.
 
 ## Editing
 

@@ -410,3 +410,18 @@ ul { margin: 0; }
   .community-section p, .community-accent, .light-link { color: var(--ink); }
   .project-card, .featured-project, .world-item { break-inside: avoid; }
 }
+
+/* Compact source-linked projects keep the extended portfolio easy to scan. */
+.archive-heading { margin: 56px 0 24px; }
+.archive-heading h3 { font-size: clamp(1.4rem, 3vw, 2rem); margin-bottom: 10px; }
+.archive-heading p { color: var(--muted); max-width: 60ch; }
+.repository-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.repository-card { padding: 28px; border: 1px solid var(--line); border-radius: 18px; display: flex; flex-direction: column; min-width: 0; }
+.repository-card h3 { font-size: 1.45rem; margin: 8px 0 14px; overflow-wrap: anywhere; }
+.repository-card > p:not(.project-category) { margin-bottom: 24px; }
+.repository-card .project-link { margin-top: auto; }
+.history-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 40px; margin-bottom: 40px; }
+.history-grid article { border-top: 1px solid var(--line); padding-top: 24px; }
+.history-grid h3 { font-size: 1.4rem; margin: 8px 0 12px; }
+@media (max-width: 1000px) { .repository-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .repository-grid, .history-grid { grid-template-columns: 1fr; } .repository-card { padding: 24px; } .archive-heading { margin-top: 40px; } }
