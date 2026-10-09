@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#acc6ce" stroke-opacity=".07"/></pattern><linearGradient id="body" x1="240" y1="150" x2="450" y2="460" gradientUnits="userSpaceOnUse"><stop stop-color="#415d70"/><stop offset="1" stop-color="#253d4e"/></linearGradient></defs>
+  <path fill="#172937" d="M0 0h760v600H0z"/><path fill="url(#grid)" d="M0 0h760v600H0z"/>
+  <ellipse cx="387" cy="453" rx="236" ry="85" stroke="#507182" stroke-opacity=".5"/>
+  <ellipse cx="387" cy="453" rx="164" ry="58" stroke="#507182" stroke-dasharray="4 8"/>
+  <path d="m170 445 436 12M383 365v183M235 501l314-90" stroke="#4a6877" stroke-opacity=".5"/>
+  <path d="m291 101 56-23 72 36-55 24z" fill="#557487" stroke="#88a3b0"/>
+  <path d="m291 101 73 37v64l-73-35z" fill="url(#body)" stroke="#88a3b0"/>
+  <path d="m364 138 55-24v62l-55 26z" fill="#2c4759" stroke="#88a3b0"/>
+  <path d="m284 190 75-30 94 47-78 32z" fill="#526e80" stroke="#86a3b3"/>
+  <path d="m284 190 91 49v105l-91-44z" fill="url(#body)" stroke="#86a3b3"/>
+  <path d="m375 239 78-32v105l-78 32z" fill="#243e4f" stroke="#86a3b3"/>
+  <path d="m296 311 77 37 65-26v48l-65 28-77-38z" fill="#344e61" stroke="#86a3b3"/>
+  <path d="m301 365 43 22-3 71-42-20z" fill="#425d70" stroke="#86a3b3"/>
+  <path d="m299 438 42 20-9 67-44-22z" fill="#304a5c" stroke="#86a3b3"/>
+  <path d="m288 503 44 22-3 22-69-35z" fill="#4b6475" stroke="#86a3b3"/>
+  <path d="m376 397 45-20 2 73-46 22z" fill="#304c5d" stroke="#86a3b3"/>
+  <path d="m377 472 46-22 6 60-47 22z" fill="#263f51" stroke="#86a3b3"/>
+  <path d="m382 532 47-22 30 18-49 25z" fill="#4b6475" stroke="#86a3b3"/>
+  <path d="m264 205 21 9 1 81-27 9-26-73z" fill="#436174" stroke="#86a3b3"/>
+  <path d="m259 304 27-9 75 33-10 24-28 6z" fill="#365164" stroke="#86a3b3"/>
+  <path d="m351 352 10-24 30 9-12 24z" fill="#5c7787" stroke="#86a3b3"/>
+  <path d="m453 208 29 12 11 75-29 10-11-62z" fill="#385a6b" stroke="#86a3b3"/>
+  <path d="m464 305 29-10 40-43-12-23-29 13z" fill="#466878" stroke="#86a3b3"/>
+  <path d="m521 229 12 23 29-8-9-23z" fill="#688793" stroke="#86a3b3"/>
+  <g transform="translate(344 247) rotate(-17)"><path d="M0 5h190v31h-98l-8 35H63l-8-35H0z" fill="#d6e69c" stroke="#f0f6ce" stroke-width="1.5"/><path d="M190 15h38v13h-38M25 5v31M127 5v31M154 12h22" stroke="#7d8e4e" stroke-width="3"/></g>
+  <path d="m267 222-2 73 94 45 49-54M469 232l14 59 62-56" stroke="#d6e69c" stroke-width="2" stroke-dasharray="6 6"/>
+  <g fill="#dceb9e" stroke="#172937" stroke-width="3"><circle cx="267" cy="222" r="6"/><circle cx="265" cy="295" r="6"/><circle cx="359" cy="340" r="6"/><circle cx="408" cy="286" r="6"/><circle cx="469" cy="232" r="6"/><circle cx="483" cy="291" r="6"/><circle cx="545" cy="235" r="6"/></g>
+  <g stroke="#82a1ad" stroke-width="1"><path d="M265 295h-89l-34-42M469 232l57-70h72M405 287l148 55h61"/><circle cx="387" cy="270" r="122" stroke-opacity=".45" stroke-dasharray="3 9"/></g>
+  <g font-family="monospace" font-size="12" fill="#cbd8df"><text x="91" y="241">IK SOLVER</text><text x="546" y="148">Motor6D</text><text x="574" y="364">CFrame</text></g>
+  <path d="m98 405 45-20M98 405v-49M98 405l28 22" stroke="#dceb9e" stroke-width="2"/><g font-family="monospace" font-size="9" fill="#dceb9e"><text x="148" y="385">X</text><text x="95" y="348">Y</text><text x="131" y="436">Z</text></g>
+  <path d="M28 29h24M40 17v24M708 29h24M720 17v24" stroke="#567180"/>
+</svg>

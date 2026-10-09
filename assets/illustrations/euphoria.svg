@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#d7e6b2" stroke-opacity=".06"/></pattern></defs>
+  <path fill="#25382d" d="M0 0h760v420H0z"/><path fill="url(#grid)" d="M0 0h760v420H0z"/>
+  <path d="m68 285 388 82 251-145-389-71z" fill="#2e4436" stroke="#55705a"/>
+  <path d="m389 236 143 29 105-60-144-26z" fill="#bdcfa0"/>
+  <path d="m389 236 143 29v70l-143-30z" fill="#6c875d"/>
+  <path d="m532 265 105-60v70l-105 60z" fill="#4b6847"/>
+  <path d="m471 148 131 26 53-31-132-25z" fill="#dceb9e"/>
+  <path d="m471 148 131 26v85l-131-25z" fill="#789261"/>
+  <path d="m602 174 53-31v85l-53 31z" fill="#526f49"/>
+  <path d="m203 269 48-28 46 11-48 29z" fill="#739160" stroke="#b9cf9e"/>
+  <path d="M248 273c35-135 110-154 189-80s77-55 111-67" stroke="#dceb9e" stroke-width="3" stroke-dasharray="7 8"/>
+  <path d="m537 123 13 1-2 14" stroke="#dceb9e" stroke-width="3"/>
+  <path d="m291 247 167-48M291 247l180 8M291 247l111 64" stroke="#9bcbe1" stroke-width="1.5"/>
+  <g fill="#9bcbe1"><circle cx="458" cy="199" r="4"/><circle cx="471" cy="255" r="4"/><circle cx="402" cy="311" r="4"/></g>
+  <circle cx="261" cy="182" r="15" fill="#dceb9e"/><path d="m255 201 10 36 31 11M265 237l-24 33M262 210l38-9M262 209l-28 16" stroke="#dceb9e" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="260" cy="214" r="37" stroke="#dceb9e" stroke-opacity=".3"/>
+  <path d="M186 80h144M186 90h56M580 314h83" stroke="#92ae81"/>
+  <g font-family="monospace" font-size="12" fill="#d6e6bb"><text x="186" y="68">movement / control</text><text x="475" y="91">mantling</text><text x="496" y="296">raycast</text></g>
+  <path d="M100 325h21M111 314v22" stroke="#adbd83"/>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "name": "berke-personal-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mustafa Berke Şimşekler's existing GitHub Pages portfolio",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "check": "node tools/check.mjs",
+    "build": "node tools/build.mjs"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ragno-typhojem.github.io/berkepersonalpage.github.io/sitemap.xml
