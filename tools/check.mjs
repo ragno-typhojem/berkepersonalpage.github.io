@@ -18,7 +18,7 @@ export async function check() {
 
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
   assert(ids.length === new Set(ids).size, 'Duplicate HTML IDs.');
-  const resources = new Set(['CV_MustafaBerkeSimsekler.pdf', 'assets/images/social-preview.jpg']);
+  const resources = new Set(['CV_MustafaBerkeSimsekler.pdf', 'CV_MustafaBerkeSimsekler.docx', 'assets/images/social-preview.jpg']);
   for (const [, value] of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
     if (value.startsWith('#')) assert(ids.includes(value.slice(1)), `Missing anchor: ${value}`);
     else if (!/^(https?:|mailto:|data:)/i.test(value)) resources.add(value);

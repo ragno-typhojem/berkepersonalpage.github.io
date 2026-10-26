@@ -19,6 +19,7 @@
     repoDescription5: "Bloklarla kod yazıp ekrandaki karakteri hareket ettirme fikrini denedim. Masaüstü sürümünü bıraktım; sonraki web denemeleri Scratch, TurboWarp ve Blockly tabanlı.",
     repoDescription6: "Etkinlik programı, isimlik, kolaj ve tutanak hazırlamak için geliştirdiğim araç. Excel dosyalarını içeri alıyor; programı elle ya da yardımcıyla düzenleyebiliyorsun.",
     repoDescription7: "Türkçe konuşup cevap veren etkinlik asistanı. Ses tanıma ve sesli yanıtı tek arayüzde bir araya getirdim.",
+    monicaDescription: "Roblox ve Luau geliştirme sırasında örnek, hata ayıklama ve sistem tasarımı üzerine yardımcı bir araç olarak geliştirdiğim bot.",
     archiveTitle: "Roblox proje arşivi",
     historyDescription0: "Şehir haritasını ve 3B ortamı tasarladım. Proje yayımlanmadı.",
     historyDescription1: "Roblox’ta sosyal bir buluşma alanı için kafenin modellerinin çoğunu ve iç mekânını yaptım.",
@@ -27,20 +28,20 @@
     currentLabel: "GÜNCEL · KAS 2024 — DEVAM EDİYOR",
     currentDescription: "Eğitim projeleri ve saha etkinlikleri için gönüllü yazılım geliştirme.",
     skip: 'İçeriğe geç', homeLabel: 'Berke — ana sayfa', navLabel: 'Ana menü',
-    navWork: 'Projeler', navAbout: 'Hakkımda', navCommunity: 'Topluluk', navContact: 'Konuşalım',
+    navWork: 'Projeler', navAbout: 'Hakkımda', navCommunity: 'Topluluk', navWorlds: 'Haritalar', navContact: 'İletişim',
     languageLabel: 'Dil', menuOpen: 'Menüyü aç', menuClose: 'Menüyü kapat',
     heroEyebrow: "OYUN & FULL STACK GELİŞTİRİCİ",
-    heroTitleOne: "Kod, oyun,", heroTitleTwo: "arada başka şeyler.",
-    heroDescription: "ODTÜ’de okuyorum. Roblox’ta oyun sistemleri yazıyor, İLKYAR için eğitim etkinliklerinde kullanılan araçlar geliştiriyorum. Arada kendi işime yarayacak küçük uygulamalara da dalıyorum.",
+    heroTitleOne: "Quo Vadis?", heroTitleTwo: "Tasarım.",
+    heroDescription: "Oyun sistemleri, etkileşimli yazılımlar ve öğrenme araçları tasarlayıp geliştiriyorum. Bu sayfa, üzerinde çalıştığım şeylerin not defteri.",
     exploreWork: 'Projelerimi keşfet',
-    heroNote: "2018’den beri kod yazıyorum. 2019’dan beri Roblox’ta bir şeyler yapıyorum.",
-    portraitAlt: 'Mustafa Berke Şimşekler bir şehir sokağında', portraitCaption: 'GELİŞTİRİCİ & ÜRETİCİ',
+    heroNote: "Güncel: MagicLab stajı · İLKYAR’da gönüllü yazılım · Roblox oyun sistemleri",
+    portraitAlt: 'Mustafa Berke Şimşekler bir şehir sokağında', portraitCaption: 'ODTÜ · Ankara',
     worldPreviewLabel: 'Tasarladığım bir dünya — 3B çevre tasarımlarımı keşfet', worldPreview: 'Tasarladığım bir dünya',
-    backgroundLabel: 'Geçmişim', factCoding: 'Kodlama ve oyun geliştirmeye başlangıç', factRoblox: 'Roblox üzerinde geliştirme', factMetu: "Bilgisayar ve Öğretim Teknolojileri Eğitimi",
-    workEyebrow: 'İŞLERİMDEN', workHeading: "Oyun tarafında yaptıklarım",
-    workIntro: "Roblox’ta bazen bir sistem, bazen bütün bir harita. Sonra da diğer işler.",
+    backgroundLabel: 'Çalışma geçmişi', factCoding: 'MagicLab · Game Artist stajı', factRoblox: 'İLKYAR · gönüllü geliştirici', factMetu: "Roblox · oyun ve sistem geliştirme",
+    workEyebrow: 'ROBLOX SİSTEMLERİ', workHeading: "Oyun sistemleri ve projeler",
+    workIntro: "Roblox’ta karakter, hareket, fizik ve çok oyunculu oyunlar üzerine çalışıyorum.",
     r15Alt: 'R15 karakter iskeletini, kol eklemlerini ve silah dönüşümlerini gösteren teknik çizim',
-    systemIllustration: 'SİSTEM ÇİZİMİ', conceptIllustration: 'KONSEPT ÇİZİMİ', openSource: 'AÇIK KAYNAK', gameplay: 'OYUN SİSTEMLERİ',
+    systemIllustration: 'TEKNİK ÇİZİM', conceptIllustration: 'KONSEPT ÇİZİMİ', openSource: 'AÇIK KAYNAK', gameplay: 'OYUN SİSTEMLERİ',
     r15Description: "R15 karakterler için yazdığım Tool tabanlı silah sistemi. Animasyonları CFrame, Motor6D ve Tween ile yönetiyorum; kolları silaha göre IK ile konumlandırıyorum.",
     insideSystem: 'Sistemin içinde',
     r15DetailOne: 'IK tabanlı kol konumlandırması ve prosedürel karakter animasyonuyla R15 iskelet entegrasyonu.',
@@ -65,7 +66,8 @@
     balkizCategory: 'EĞİTİM TEKNOLOJİLERİ · ETKİLEŞİM',
     balkizDescription: "İLKYAR etkinlikleri için geliştirdiğim Türkçe konuşan yapay zekâ karakteri. Çocuklar görsel ve sesli bir arayüz üzerinden onunla sohbet edebiliyor.",
     interactiveVisuals: 'Etkileşimli görseller', learningDesign: 'Öğrenme tasarımı', viewRepository: 'Kaynak kodu incele', visitProject: 'Projeyi aç',
-    worldsEyebrow: 'HARİTALAR & ORTAMLAR', worldsHeading: "Birkaç eski Roblox sahnesi",
+    otherProjects: 'WEB · EĞİTİM · ARAÇLAR',
+    resumeLink: 'Özgeçmiş · Word', worldsEyebrow: 'HARİTALAR & ORTAMLAR', worldsHeading: "Roblox’ta kurduğum dünyalar",
     worldsIntro: "Bunlar daha önce Studio’da yaptığım ortamlar. Street Revengers yayımlanmadı; Cafe ise ayrı bir sosyal alan çalışmasıydı.",
     revengersAlt: 'Street Revengers için tasarlanmış şehir ortamı', revengersLabel: 'Street Revengers görselini büyüt',
     skylineAlt: 'Merdivenler ve oturma alanları bulunan, gün ışığı alan bir kafe iç mekânı', skylineLabel: 'Skyline Cafe görselini büyüt',
@@ -76,7 +78,7 @@
     hospitalAlt: 'Açık mavi gökyüzü altında modellenmiş hastane dış cephesi', hospitalLabel: 'Hastane dış cephesi görselini büyüt', hospitalCaption: 'Hastane dış cephesi',
     hospitalInteriorAlt: 'Tavan yapısı ve bekleme koltukları bulunan hastane koridoru', hospitalInteriorLabel: 'Hastane koridoru görselini büyüt', hospitalInteriorCaption: 'Hastane koridoru',
     cityEnvironment: 'Şehir ortamı', interiorDesign: 'İç mekân tasarımı', environmentStudy: 'Çevre tasarımı', architecture: 'Mimari',
-    aboutEyebrow: '03 / PROJELERİN ARKASINDAKİ KİŞİ', aboutHeading: "Biraz da ben.",
+    aboutEyebrow: 'HAKKIMDA', aboutHeading: "Biraz da ben.",
     aboutLead: "Projelerimin çoğu denemek istediğim bir şeyden ya da çözmek istediğim bir sorundan çıkıyor.",
     aboutDescription: "2018’de kodlama ve oyun geliştirmeye başladım, 2019’da Roblox’a geçtim. Şimdi ODTÜ’deki eğitimimin yanında oyun sistemleri, web uygulamaları ve eğitim etkinlikleri üzerinde çalışıyorum.",
     aboutPersonal: "Boş zamanlarımda yürüyüş yapmayı, tenis oynamayı ve sporla ilgilenmeyi seviyorum. Programlama konusunda diğer öğrencilere yardımcı olmak ve öğrendiklerimi paylaşmak da hoşuma gidiyor.",
@@ -98,8 +100,8 @@
     educationCommunityDescription: "İLKYAR’da Full Stack Developer olarak gönüllü çalışmaya devam ediyorum. Etkinlikler için yazılım geliştiriyor, testlerde ve sahadaki teknik işlerde görev alıyorum.",
     mentorshipDescription: 'Bilgisayar biliminin temellerini öğretmek ve öğrencilere mentorluk yapmak istiyorum. Henüz özel ders deneyimim bulunmuyor.',
     iskeletLink: 'İskelet Fehmi’yi keşfet',
-    contactEyebrow: '05 / BİR SOHBET BAŞLATALIM', contactHeadingOne: 'Bir fikir, bir proje,', contactHeadingTwo: 'ya da sadece bir merhaba.',
-    contactDescription: "Projeler, birlikte çalışma veya soruların için e-posta ya da LinkedIn üzerinden ulaşabilirsin.",
+    contactEyebrow: 'İLETİŞİM', contactHeadingOne: 'Birlikte', contactHeadingTwo: 'bir şey yapalım.',
+    contactDescription: "Bir proje, iş birliği ya da merhaba için e-posta veya LinkedIn’den ulaşabilirsin.",
     copyEmail: 'E-posta adresini kopyala', emailCopied: 'E-posta adresi kopyalandı.', emailCopyFailed: 'Kopyalama kullanılamıyor. E-posta bağlantısından iletişime geçebilirsiniz.',
     footerNote: "Mustafa Berke Şimşekler · ODTÜ", backTop: 'Yukarı çık',
     galleryLabel: 'DÜNYA TASARIMI / GALERİ', closeImage: 'Görseli kapat', previousImage: 'Önceki görsel', nextImage: 'Sonraki görsel'
@@ -121,7 +123,7 @@
       english[element.dataset[key]] = attribute ? element.getAttribute(attribute) : element.textContent;
     });
   }
-  let language = 'en';
+  let language = 'tr';
   const translate = key => (language === 'tr' ? turkish[key] : english[key]) ?? english[key] ?? key;
   const nav = document.getElementById('main-nav');
   const menu = document.getElementById('menu-toggle');

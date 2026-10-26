@@ -11,7 +11,7 @@ try {
 }
 await rm(destination, { recursive: true, force: true });
 await mkdir(destination, { recursive: true });
-for (const file of ['index.html', 'stylesheet.css', 'script.js', 'assets', 'photosrc', 'CV_MustafaBerkeSimsekler.pdf', 'sitemap.xml', 'robots.txt', '.nojekyll']) {
+for (const file of ['index.html', 'stylesheet.css', 'script.js', 'assets', 'photosrc', 'CV_MustafaBerkeSimsekler.pdf', 'CV_MustafaBerkeSimsekler.docx', 'sitemap.xml', 'robots.txt', '.nojekyll']) {
   await cp(resolve(root, file), resolve(destination, file), { recursive: true });
 }
 console.log('Static build ready in dist/. GitHub Pages continues to serve the repository root; no deployment configuration was changed.');
