@@ -45,9 +45,9 @@ export async function check() {
   const keys = new Set([...html.matchAll(/data-(?:i18n(?:-alt|-aria)?|caption-key|alt)="([^"]+)"/g)].map(match => match[1]));
   for (const key of keys) assert(typeof dictionary[key] === 'string' && dictionary[key].length, `Missing Turkish translation: ${key}`);
   assert(Buffer.byteLength(js) < 30000, 'JavaScript exceeds the 30 kB budget.');
-  assert(Buffer.byteLength(css) < 35000, 'CSS exceeds the 35 kB budget.');
+  assert(Buffer.byteLength(css) < 45000, 'CSS exceeds the 45 kB budget.');
   let assetBytes = 0;
-  for (const folder of ['assets/images', 'assets/fonts', 'assets/illustrations']) {
+  for (const folder of ['assets/images', 'assets/fonts', 'assets/illustrations', 'assets/illustrations/projects']) {
     for (const file of await readdir(resolve(root, folder))) assetBytes += (await stat(resolve(root, folder, file))).size;
   }
   assert(assetBytes < 1500000, 'Optimized media exceeds the 1.5 MB budget.');

@@ -20,6 +20,14 @@
     repoDescription6: "Etkinlik programı, isimlik, kolaj ve tutanak hazırlamak için geliştirdiğim araç. Excel dosyalarını içeri alıyor; programı elle ya da yardımcıyla düzenleyebiliyorsun.",
     repoDescription7: "Türkçe konuşup cevap veren etkinlik asistanı. Ses tanıma ve sesli yanıtı tek arayüzde bir araya getirdim.",
     monicaDescription: "Roblox ve Luau geliştirme sırasında örnek, hata ayıklama ve sistem tasarımı üzerine yardımcı bir araç olarak geliştirdiğim bot.",
+    prokordiDiagram: 'Program, takvim ve etkinlik çıktıları arasındaki akış şeması',
+    iskeletDiagram: 'Kameradan hareket noktalarının ekrana aktarılma şeması',
+    balkizDiagram: 'Konuşma girdisi, ses tanıma ve yanıt akışı şeması',
+    minikDiagram: 'Örnek toplama, model eğitme ve deneme akışı şeması',
+    libocculusDiagram: 'Kampüs binaları ve yoğunluk paylaşımı arayüzü şeması',
+    uzunDiagram: 'Sekme, yer imi, gezinme ve geçmiş bölümleri şeması',
+    kodkitDiagram: 'Bloklarla hareket dizisi kurup karakteri yürütme şeması',
+    monicaDiagram: 'Kod editörü ve geliştirici yardımcısı arasındaki etkileşim şeması',
     archiveTitle: "Roblox proje arşivi",
     historyDescription0: "Şehir haritasını ve 3B ortamı tasarladım. Proje yayımlanmadı.",
     historyDescription1: "Roblox’ta sosyal bir buluşma alanı için kafenin modellerinin çoğunu ve iç mekânını yaptım.",
@@ -32,14 +40,14 @@
     languageLabel: 'Dil', menuOpen: 'Menüyü aç', menuClose: 'Menüyü kapat',
     heroEyebrow: "OYUN & FULL STACK GELİŞTİRİCİ",
     heroTitleOne: "Quo Vadis?", heroTitleTwo: "Tasarım.",
-    heroDescription: "Oyun sistemleri, etkileşimli yazılımlar ve öğrenme araçları tasarlayıp geliştiriyorum. Bu sayfa, üzerinde çalıştığım şeylerin not defteri.",
+    heroDescription: "ODTÜ’de okuyorum. Roblox’ta oyun sistemleri geliştiriyor, İLKYAR’da çocukların etkinliklerinde kullandığımız yazılımlar yapıyorum.",
     exploreWork: 'Projelerimi keşfet',
-    heroNote: "Güncel: MagicLab stajı · İLKYAR’da gönüllü yazılım · Roblox oyun sistemleri",
+    heroNote: "Son dönemde MagicLab’de oyun görselleri üzerine staj yaptım; İLKYAR’da ve Roblox projelerinde geliştirmeye devam ediyorum.",
     portraitAlt: 'Mustafa Berke Şimşekler bir şehir sokağında', portraitCaption: 'ODTÜ · Ankara',
     worldPreviewLabel: 'Tasarladığım bir dünya — 3B çevre tasarımlarımı keşfet', worldPreview: 'Tasarladığım bir dünya',
     backgroundLabel: 'Çalışma geçmişi', factCoding: 'MagicLab · Game Artist stajı', factRoblox: 'İLKYAR · gönüllü geliştirici', factMetu: "Roblox · oyun ve sistem geliştirme",
-    workEyebrow: 'ROBLOX SİSTEMLERİ', workHeading: "Oyun sistemleri ve projeler",
-    workIntro: "Roblox’ta karakter, hareket, fizik ve çok oyunculu oyunlar üzerine çalışıyorum.",
+    workEyebrow: 'ROBLOX SİSTEMLERİ', workHeading: "Roblox projeleri",
+    workIntro: "Karakter hareketi, fizik ve çok oyunculu oyunlar.",
     r15Alt: 'R15 karakter iskeletini, kol eklemlerini ve silah dönüşümlerini gösteren teknik çizim',
     systemIllustration: 'TEKNİK ÇİZİM', conceptIllustration: 'KONSEPT ÇİZİMİ', openSource: 'AÇIK KAYNAK', gameplay: 'OYUN SİSTEMLERİ',
     r15Description: "R15 karakterler için yazdığım Tool tabanlı silah sistemi. Animasyonları CFrame, Motor6D ve Tween ile yönetiyorum; kolları silaha göre IK ile konumlandırıyorum.",
@@ -66,7 +74,7 @@
     balkizCategory: 'EĞİTİM TEKNOLOJİLERİ · ETKİLEŞİM',
     balkizDescription: "İLKYAR etkinlikleri için geliştirdiğim Türkçe konuşan yapay zekâ karakteri. Çocuklar görsel ve sesli bir arayüz üzerinden onunla sohbet edebiliyor.",
     interactiveVisuals: 'Etkileşimli görseller', learningDesign: 'Öğrenme tasarımı', viewRepository: 'Kaynak kodu incele', visitProject: 'Projeyi aç',
-    otherProjects: 'WEB · EĞİTİM · ARAÇLAR',
+    otherProjects: 'Web, eğitim ve küçük araçlar',
     resumeLink: 'Özgeçmiş · Word', worldsEyebrow: 'HARİTALAR & ORTAMLAR', worldsHeading: "Roblox’ta kurduğum dünyalar",
     worldsIntro: "Bunlar daha önce Studio’da yaptığım ortamlar. Street Revengers yayımlanmadı; Cafe ise ayrı bir sosyal alan çalışmasıydı.",
     revengersAlt: 'Street Revengers için tasarlanmış şehir ortamı', revengersLabel: 'Street Revengers görselini büyüt',
@@ -123,6 +131,31 @@
       english[element.dataset[key]] = attribute ? element.getAttribute(attribute) : element.textContent;
     });
   }
+  Object.assign(english, {
+    navWorlds: 'Worlds', navContact: 'Contact', heroTitleTwo: 'Design.',
+    heroDescription: 'I study at METU. I build Roblox game systems and software for activities with children at İLKYAR.',
+    heroNote: 'I recently worked on game visuals at MagicLab; I continue developing projects at İLKYAR and on Roblox.',
+    portraitCaption: 'METU · Ankara', backgroundLabel: 'Recent work',
+    factCoding: 'MagicLab · Game Artist internship', factRoblox: 'İLKYAR · volunteer developer', factMetu: 'Roblox · games and systems',
+    workEyebrow: 'ROBLOX SYSTEMS', workHeading: 'Game systems and projects',
+    workIntro: 'Character movement, physics, and multiplayer games on Roblox.',
+    gameplay: 'CHARACTER · WEAPON SYSTEM', systemIllustration: 'TECHNICAL DRAWING',
+    insideSystem: 'Inside the system', otherProjects: 'Web, education, and small tools',
+    resumeLink: 'Resume · Word', worldsEyebrow: 'MAPS & ENVIRONMENTS',
+    worldsHeading: 'Worlds built in Roblox',
+    worldsIntro: 'Earlier environments I built in Studio. Street Revengers was not released; Cafe was a separate social space.',
+    aboutEyebrow: 'ABOUT', aboutHeading: 'A little about me.',
+    contactEyebrow: 'CONTACT', contactHeadingOne: 'Let’s make', contactHeadingTwo: 'something together.',
+    contactDescription: 'For a project, collaboration, or just to say hello, email or LinkedIn works.',
+    prokordiDiagram: 'Schedule, calendar, and event output flow diagram',
+    iskeletDiagram: 'Diagram showing camera movement points transferred to the screen',
+    balkizDiagram: 'Speech input, recognition, and response flow diagram',
+    minikDiagram: 'Sample collection, model training, and testing flow diagram',
+    libocculusDiagram: 'Campus buildings and crowd-sharing interface diagram',
+    uzunDiagram: 'Tabs, bookmarks, navigation, and history diagram',
+    kodkitDiagram: 'Block sequence that moves a character diagram',
+    monicaDiagram: 'Interaction between code editor and developer assistant diagram'
+  });
   let language = 'tr';
   const translate = key => (language === 'tr' ? turkish[key] : english[key]) ?? english[key] ?? key;
   const nav = document.getElementById('main-nav');
@@ -224,8 +257,8 @@
       button.setAttribute('aria-pressed', String(button.dataset.language === language));
     });
     document.title = language === 'tr'
-      ? 'Mustafa Berke Şimşekler | Oyun & Full Stack Geliştirici'
-      : 'Mustafa Berke Şimşekler | Game & Full Stack Developer';
+      ? 'Mustafa Berke Şimşekler | Quo Vadis? Tasarım.'
+      : 'Mustafa Berke Şimşekler | Quo Vadis? Design.';
     document.querySelector('meta[name="description"]').content = language === 'tr'
       ? 'Mustafa Berke Şimşekler — oyun ve full stack geliştirici. Roblox oyun sistemleri, web uygulamaları ve İLKYAR eğitim projeleri.'
       : 'Mustafa Berke Şimşekler — game and full stack developer. Roblox gameplay systems, web applications and educational projects at İLKYAR.';

@@ -1,6 +1,6 @@
 # Content and asset sources
 
-Content reviewed on 9 October 2026. Descriptions intentionally omit unverified audience sizes, performance improvements, revenue, project release dates and invented repository/game links.
+Content reviewed on 27 October 2026. Descriptions intentionally omit unverified audience sizes, performance improvements, revenue, project release dates and invented repository/game links.
 
 | Content | Source and scope |
 | --- | --- |
@@ -13,7 +13,7 @@ Content reviewed on 9 October 2026. Descriptions intentionally omit unverified a
 | Portrait and eight 3D environment images | Original `photosrc/` files from this repository. WebP versions retain the same image content. Images are presented as earlier environment work, not as screenshots of the newer gameplay projects. |
 | R15, Euphoria, KICKVANE, Hustle Rush and B.A.L.K.I.Z illustrations | Original, editable SVG diagrams created for this portfolio. Labelled as system/concept illustrations. |
 | Font files | [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) and [Space Grotesk](https://github.com/google/fonts/tree/main/ofl/spacegrotesk), distributed under the included SIL Open Font Licenses. |
-| Contact email, LinkedIn and existing CV PDF | Retained from the original portfolio. The CV document itself was not updated. |
+| Contact email, LinkedIn and refreshed CV downloads | Public contact links retained. Current downloadable PDF and Word resume were rebuilt from the supplied resume and CV; private phone and dormitory address were omitted. |
 
 The root site URL, repository and GitHub Pages configuration remain the same. No separate hosting service or new deployment has been introduced.
 
@@ -35,3 +35,6 @@ Additional public repositories inspected (source, not runtime validation):
 - [KODKIT Application](https://github.com/ragno-typhojem/KODKIT-Application): C#/XAML block execution and sprite movement prototype. README explicitly says discontinued. Related Scratch/TurboWarp/Blockly forks are credited as upstream-based experiments, not independent engines.
 
 Street Revengers, Skyline Cafe, Turk-Med and Erciyan archive summaries come from the user's public LinkedIn project entries. Street Revengers and Erciyan are marked unreleased. Existing photos are not newly attributed to Turk-Med or Erciyan without evidence. BALKIZ variants are not counted as separate products.
+
+
+The 27 October 2026 refresh places “Quo Vadis? Tasarım.” above the fold, uses original Roblox system diagrams in the opening section, and adds project-specific process illustrations for ProKordi Manager, İskelet Fehmi, B.A.L.K.I.Z, Minik AI Laboratuvarı, Libocculus, Uzun Browser, KODKIT and Monica Bot. These are explanatory portfolio drawings, not screenshots of deployed product UIs. The résumé lists the completed MagicLab Game Artist internship, ongoing İLKYAR and Ragno Games work, completed METU Computer Club chairmanship, current projects, education and languages.
