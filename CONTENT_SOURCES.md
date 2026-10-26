@@ -23,6 +23,10 @@ The user confirmed that the METU Computer Club board/chairmanship term has ended
 
 Additional public repositories inspected (source, not runtime validation):
 
+- [ProKordi Manager](https://github.com/ragno-typhojem/prokordi-manager), live app at [prokordi-manager.vercel.app](https://prokordi-manager.vercel.app): volunteer event schedule management, Excel/CSV import, name badges, collages and minutes. README checked 26 October 2026.
+- [B.A.L.K.I.Z](https://github.com/ragno-typhojem/B.A.L.K.I.Z), live app at [balkizai.vercel.app](https://balkizai.vercel.app): Turkish speech assistant for İLKYAR rural projects. Public repo metadata and README checked 26 October 2026.
+- [İskelet Fehmi](https://github.com/ragno-typhojem/iskeletfahmi-ai), live app at [iskeletfahmi-ai.vercel.app](https://iskeletfahmi-ai.vercel.app): interactive camera movement-tracking demo. Live URL verified from public GitHub repository metadata on 26 October 2026.
+
 - [İskelet Fehmi](https://github.com/ragno-typhojem/iskeletfahmi-ai): camera tracking and canvas character rendering. Current source uses MediaPipe Tasks; the earlier LinkedIn post mentions Holistic. Portfolio tags use MediaPipe without claiming the older implementation is current.
 - [Minik AI Laboratuvarı](https://github.com/ragno-typhojem/balkizCreative): README and package manifest describe browser-based camera/audio classifier workshops using TensorFlow.js.
 - [Emotion Detector](https://github.com/ragno-typhojem/emotion-detector): React source uses face-api.js expression estimates. No claim of knowing a person's actual emotions or diagnostic accuracy.
